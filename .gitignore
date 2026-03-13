@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+
+# Jupyter
+.ipynb_checkpoints
+
+# Models
+models/*.bin
+models/*.pt
+
+# IDE
+.vscode/
+.DS_Store
+
+# Logs
+*.log
