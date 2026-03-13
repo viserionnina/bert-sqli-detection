@@ -1,6 +1,8 @@
 # BERT SQL Injection Detection
 BERT-based model for detecting SQL injection attacks in user input.
+
 Dataset is from: https://www.kaggle.com/datasets/ayahkhaldi/sql-injection-dataset
+
 Dataset contains SQL queries labeled as:
 - `0` - Safe query
 - `1` - SQL Injection
