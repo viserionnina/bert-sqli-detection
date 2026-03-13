@@ -1,5 +1,6 @@
 # BERT SQL Injection Detection
 BERT-based model for detecting SQL injection attacks in user input.
+Dataset is from: https://www.kaggle.com/datasets/ayahkhaldi/sql-injection-dataset
 
 ### 1. Clone repository
 ```bash
@@ -21,5 +22,3 @@ or
 ```bash
 pip install -r all_requirements.txt
 ```
-
-Dataset is from: https://www.kaggle.com/datasets/ayahkhaldi/sql-injection-dataset
