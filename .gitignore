@@ -14,6 +14,7 @@ __pycache__/
 # Models
 models/*.bin
 models/*.pt
+models/*.safetensors
 
 # IDE
 .vscode/
