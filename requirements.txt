@@ -7,3 +7,4 @@ numpy==1.24.0
 matplotlib==3.8.0
 seaborn==0.13.0
 jupyter==1.0.0
+bertviz==1.4.1
