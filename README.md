@@ -14,26 +14,26 @@ The dataset contains SQL queries labeled as:
 
 | Split | Samples |
 |-------|---------|
-| Train | ~65,000 |
-| Validation | ~3,000 |
-| Test | ~32,000 |
+| Train | 98,062 |
+| Validation | 32,687 |
+| Test | 32,688 |
 
 ---
 
 ## Model
 
-Two fine-tuned versions are available (not included in the repository due to file size — train locally):
+Two fine-tuned versions are available (not included in the repository due to file size — trained locally):
 
 | Version | Max Tokens | Notes |
 |---------|-----------|-------|
-| `bert_sqli_model_4_epochs_512_tokens` | 512 | Recommended |
+| `bert_sqli_model_4_epochs_512_tokens` | 512 | Recommended for more avurate results |
 | `bert_sqli_model_4_epochs_256_tokens` | 256 | Faster inference |
 
 Training was performed on a MacBook Pro 2021 (M1 Max, 64GB, 1TB).
 
 ---
 
-## Results (512 tokens, softmax threshold 0.3)
+## Best Results (512 tokens, softmax threshold 0.3)
 
 | Metric | Score |
 |--------|-------|
@@ -50,7 +50,6 @@ Training was performed on a MacBook Pro 2021 (M1 Max, 64GB, 1TB).
 bert-sqli-detection/
 ├── notebooks/
 │   ├── fine_tuning_bert.ipynb   # BERT fine-tuning & training
-│   ├── training.ipynb           # Evaluation & visualizations
 │   └── prediction.ipynb        # Predictions & BertViz attention
 ├── dataset/
 │   ├── Train.csv
