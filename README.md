@@ -4,6 +4,37 @@ A fine-tuned BERT model for detecting SQL injection (SQLi) attacks in user input
 
 ---
 
+## Setup
+
+### 1. Clone repository
+```bash
+git clone https://github.com/viserionnina/bert-sqli-detection.git
+cd bert-sqli-detection
+```
+
+### 2. Create virtual environment (Mac/Linux)
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+**First time:** Run all cells in `fine_tuning_bert.ipynb` to train the model.
+
+**With existing model:** Run cells 0–19 in `fine_tuning_bert.ipynb`, skip training cells (21, 22, 26, 27), then continue from cell 29 (loading model).
+
+**Predictions:** Use `prediction.ipynb` to run predictions on custom SQL queries and visualize attention with BertViz.
+
+---
+
 ## Dataset
 
 Dataset source: [Kaggle — SQL Injection Dataset](https://www.kaggle.com/datasets/ayahkhaldi/sql-injection-dataset)
@@ -62,38 +93,7 @@ bert-sqli-detection/
 
 ---
 
-## Setup
-
-### 1. Clone repository
-```bash
-git clone https://github.com/viserionnina/bert-sqli-detection.git
-cd bert-sqli-detection
-```
-
-### 2. Create virtual environment (Mac/Linux)
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Usage
-
-**First time:** Run all cells in `fine_tuning_bert.ipynb` to train the model.
-
-**With existing model:** Run cells 0–19 in `fine_tuning_bert.ipynb`, skip training cells (21, 22, 26, 27), then continue from cell 29 (loading model).
-
-**Predictions:** Use `prediction.ipynb` to run predictions on custom SQL queries and visualize attention with BertViz.
-
----
-
 ## Author
 
-Nina Ivanković  
+Nicole Ivanković  
 University of Rijeka, Faculty of Engineering
