@@ -26,7 +26,7 @@ Two fine-tuned versions are available (not included in the repository due to fil
 
 | Version | Max Tokens | Notes |
 |---------|-----------|-------|
-| `bert_sqli_model_4_epochs_512_tokens` | 512 | Recommended for more avurate results |
+| `bert_sqli_model_4_epochs_512_tokens` | 512 | Recommended for more acurate results |
 | `bert_sqli_model_4_epochs_256_tokens` | 256 | Faster inference |
 
 Training was performed on a MacBook Pro 2021 (M1 Max, 64GB, 1TB).
