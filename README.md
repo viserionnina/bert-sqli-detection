@@ -1,6 +1,6 @@
 # BERT SQL Injection Detection
 
-A fine-tuned BERT model for detecting SQL injection (SQLi) attacks in user input. The model is based on **BERT Base Cased** (L=12, H=768, A=12, 110M parameters) and achieves ~99.8% accuracy on the test set.
+A fine-tuned BERT model for detecting SQL injection (SQLi) attacks in user input. The model is based on **BERT Base Cased** (L=12, H=768, A=12, 110M parameters) and achieves ~99.86% accuracy on the Test set with model of 512 tokens.
 
 ---
 
