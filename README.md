@@ -60,18 +60,18 @@ Two fine-tuned versions are available (not included in the repository due to fil
 | `bert_sqli_model_4_epochs_512_tokens` | 512 | Recommended for more acurate results |
 | `bert_sqli_model_4_epochs_256_tokens` | 256 | Faster inference |
 
-Training was performed on a MacBook Pro 2021 (M1 Max, 64GB, 1TB).
+Fine-tuning was performed on a MacBook Pro 2021 (M1 Max, 64GB, 1TB).
 
 ---
 
-## Best Results (512 tokens, softmax threshold 0.3)
+## Best Results (512 tokens, softmax threshold 0.2)
 
 | Metric | Score |
 |--------|-------|
-| Accuracy | 99.85% |
-| Precision | 99.90% |
-| Recall | 99.79% |
-| F1 | 99.84% |
+| Accuracy | 99.86% |
+| Precision | 99.87% |
+| Recall | 99.83% |
+| F1 | 99.85% |
 
 ---
 
@@ -80,7 +80,7 @@ Training was performed on a MacBook Pro 2021 (M1 Max, 64GB, 1TB).
 ```
 bert-sqli-detection/
 ├── notebooks/
-│   ├── fine_tuning_bert.ipynb   # BERT fine-tuning & training
+│   ├── fine_tuning_bert.ipynb   # BERT fine-tuning & initialization
 │   └── prediction.ipynb        # Predictions & BertViz attention
 ├── dataset/
 │   ├── Train.csv
@@ -96,4 +96,4 @@ bert-sqli-detection/
 ## Author
 
 Nicole Ivanković  
-University of Rijeka, Faculty of Engineering
+University of Rijeka, Faculty of Engineering, Croatia
